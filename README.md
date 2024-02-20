@@ -1,5 +1,9 @@
 - 👋 Hi there! I'm Abhijit Swain (abhijitswain09).
 
+- 🏢 Currently working as a Jr. Bioinformatics Analyt at Sandor Bioinformatics Pvt. Ltd., where i working on variant analysis of Clinical patient data
+  using Various population database,ClinVar,OMIM,Malacards, Franklin browser and various Bioinformatics algorithms(i.e. Mutation tester,SIFT,PolyPhen2
+  etc.  
+ 
 - 🎓 I recently completed my MSc in Bioinformatics from Chandigarh University, where I gained expertise in various aspects of bioinformatics and computational biology.
 
 - 🔬 During my academic journey, I had the opportunity to work on an exciting 6-month dissertation program at CSIR-IHBT. My research focused on the construction of gene co-expression and Bayesian networks for Arabidopsis thaliana, exploring the intricate relationships between genes.
