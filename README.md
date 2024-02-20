@@ -16,7 +16,7 @@
 
 - 📫 Feel free to connect with me, and let's explore the fascinating world of bioinformatics together!
 
-- 📫 How to reach me abhijitswain148@gmail.com
+- 📫 How to reach me abhijitswain148@gmail.com , linkedIn : www.linkedin.com/in/abhijit-swain
 
 <!---
 abhijitswain09/abhijitswain09 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
