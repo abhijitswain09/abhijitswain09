@@ -1,21 +1,24 @@
-- 👋 Hi there! I'm Abhijit Swain (abhijitswain09).
+Hi there! I’m Abhijit Swain 👋
 
-- 🏢 Currently working as a Jr. Bioinformatics Analyt at Sandor Bioinformatics Pvt. Ltd., where i working on variant analysis of Clinical patient data
-  using Various population database,ClinVar,OMIM,Malacards, Franklin browser and various Bioinformatics algorithms(i.e. Mutation tester,SIFT,PolyPhen2
-  etc.  
- 
-- 🎓 I recently completed my MSc in Bioinformatics from Chandigarh University, where I gained expertise in various aspects of bioinformatics and computational biology.
+🏢 I’m currently working as a Senior Bioinformatician at Genomiki Solutions Pvt. Ltd., where I handle end-to-end bioinformatics workflows across diagnostic and research-driven projects. My work spans rare disease analysis, newborn screening, carrier screening, and oncology, with a strong focus on building robust, clinically relevant solutions.
 
-- 🔬 During my academic journey, I had the opportunity to work on an exciting 6-month dissertation program at CSIR-IHBT. My research focused on the construction of gene co-expression and Bayesian networks for Arabidopsis thaliana, exploring the intricate relationships between genes.
+🧬 I have extensive experience in clinical variant analysis, interpretation, and reporting using population databases and knowledge resources such as ClinVar, OMIM, MalaCards, Franklin, gnomAD, and multiple in silico pathogenicity prediction algorithms (SIFT, PolyPhen-2, MutationTaster, etc.). I actively work on translating complex genomic data into meaningful clinical insights.
 
-- 💻 I have a strong passion for NGS data analysis and network biology, where I love deciphering biological insights hidden within complex datasets.
+💻 Beyond analysis, I am involved in research and product development, including the design and development of bioinformatics portals and web-based platforms for diagnostics and genomic data interpretation. I collaborate closely with clinicians, researchers, and developers to create scalable and user-friendly solutions.
 
-- 🧬 Additionally, I have a keen interest in proteomics, particularly in areas like drug designing and molecular dynamics simulations (MDS).
+🎓 I hold an MSc in Bioinformatics from Chandigarh University, where I built a strong foundation in computational biology and data analysis.
 
-- 🌱 I'm constantly seeking opportunities to expand my knowledge and skills in the field of bioinformatics, and I'm open to collaborating on projects that involve innovative data analysis and bioinformatics tools.
+🔬 During my academic journey, I completed a 6-month dissertation at CSIR–IHBT, focusing on gene co-expression and Bayesian network construction in Arabidopsis thaliana to uncover complex gene–gene interaction networks.
 
-- 📫 Feel free to connect with me, and let's explore the fascinating world of bioinformatics together!
+🧪 My core interests include NGS data analysis, network biology, clinical genomics, and translational bioinformatics. I also have a keen interest in proteomics, drug designing, and molecular dynamics simulations (MDS).
 
+🌱 I’m always eager to learn, innovate, and collaborate on projects that bridge genomics, technology, and healthcare, especially those aimed at improving early diagnosis and precision medicine.
+
+📫 How to reach me:
+📧 Email: abhijitswain148@gmail.com
+🔗 LinkedIn: linkedin.com/in/abhijit-swain
+
+Let’s connect and work together to advance the future of genomics and bioinformatics! 🚀
 - 📫 How to reach me abhijitswain148@gmail.com , linkedIn : www.linkedin.com/in/abhijit-swain
 
 <!---
