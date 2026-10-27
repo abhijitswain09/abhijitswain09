@@ -11,46 +11,65 @@
 
 ## About
 
-I’m a Senior Bioinformatician at **Genomiki Solutions Pvt. Ltd.** My work spans clinical genomics and computational biology, from rare disease, newborn and carrier screening to oncology and multi-omics research.
+I’m a Senior Bioinformatician at **Genomiki Solutions Pvt. Ltd.**, working across clinical genomics, computational biology, and AI-assisted research. I focus on the algorithms behind the analysis: representing biological signals, inferring relationships, combining evidence, and making uncertainty visible.
 
-I’m interested in the **algorithms behind the analysis**: how biological signals are represented, relationships are inferred, evidence is combined, and uncertainty is made visible. I work across **WGS, WES, RNA-seq, microbiome, antimicrobial resistance (AMR), and DNA methylation**, alongside other genomics and omics questions.
+## Skills & research
 
-## Research areas & methods
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" alt="R" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
+</p>
 
-- **Genomic interpretation:** variant relevance and evidence scoring, inheritance-aware analysis, phenotype matching, and clinical evidence review.
-- **Transcriptomics:** RNA-seq differential expression, functional enrichment, and gene-expression pattern analysis.
-- **Network biology:** gene co-expression networks, module analysis, and Bayesian network modeling.
-- **Microbiome & AMR:** microbiome composition and diversity interpretation, resistance-related analysis, and clear reporting.
-- **Cancer genomics:** somatic variant evidence, actionability, pharmacogenomics, and clinical-trial matching.
-- **Epigenomics:** DNA methylation analysis and integration with broader biological questions.
+<p>
+  <img src="https://img.shields.io/badge/Algorithm%20Design-6E40C9?style=flat" alt="Algorithm design" />
+  <img src="https://img.shields.io/badge/Evidence%20Scoring-6E40C9?style=flat" alt="Evidence scoring" />
+  <img src="https://img.shields.io/badge/Bayesian%20Networks-6E40C9?style=flat" alt="Bayesian networks" />
+  <img src="https://img.shields.io/badge/Co--expression%20Networks-6E40C9?style=flat" alt="Co-expression networks" />
+  <img src="https://img.shields.io/badge/Variant%20Prioritization-6E40C9?style=flat" alt="Variant prioritization" />
+</p>
 
-## AI in bioinformatics
+<p>
+  <img src="https://img.shields.io/badge/WGS-087E8B?style=flat" alt="WGS" />
+  <img src="https://img.shields.io/badge/WES-087E8B?style=flat" alt="WES" />
+  <img src="https://img.shields.io/badge/RNA--seq-087E8B?style=flat" alt="RNA-seq" />
+  <img src="https://img.shields.io/badge/Microbiome-087E8B?style=flat" alt="Microbiome" />
+  <img src="https://img.shields.io/badge/AMR-087E8B?style=flat" alt="Antimicrobial resistance" />
+  <img src="https://img.shields.io/badge/Methylation-087E8B?style=flat" alt="Methylation" />
+  <img src="https://img.shields.io/badge/Oncology-087E8B?style=flat" alt="Oncology" />
+  <img src="https://img.shields.io/badge/Multi--omics-087E8B?style=flat" alt="Multi-omics" />
+</p>
 
-I build AI-assisted workflows around domain-specific evidence rather than treating a model response as the result:
+## AI × bioinformatics
 
-- LLM-assisted phenotype matching and literature consistency checks for variant relevance.
-- Rule-based scoring for structured evidence such as consequence, inheritance, frequency, and prior classifications.
-- Local-model and assistant prototypes for bringing bioinformatics questions and workflows into interactive applications.
-- Evidence, score breakdowns, and review flags that help people inspect how a result was produced.
+<p>
+  <img src="https://img.shields.io/badge/LLM--assisted%20Phenotype%20Matching-8250DF?style=flat" alt="LLM-assisted phenotype matching" />
+  <img src="https://img.shields.io/badge/Literature%20Consistency-8250DF?style=flat" alt="Literature consistency" />
+  <img src="https://img.shields.io/badge/Explainable%20Evidence%20Scoring-8250DF?style=flat" alt="Explainable evidence scoring" />
+  <img src="https://img.shields.io/badge/Local--model%20Assistants-8250DF?style=flat" alt="Local-model assistants" />
+</p>
 
-## Selected project work
+I use AI to help interpret text-heavy signals and build interactive research tools. Structured evidence scoring stays inspectable, with supporting evidence and review flags visible.
 
-Some current projects live in private repositories, so I’m describing the work here without exposing private code, repository links, or study data.
+## Research in practice
 
-- **Variant relevance and prioritization:** combine variant-level evidence, inheritance, population frequency, disease associations, phenotype similarity, and literature into an inspectable ranking.
-- **Cancer variant interpretation:** bring together ACMG/AMP classification, AMP/ASCO/CAP-style tiers, tumor evidence, pharmacogenomics, and trial matching.
-- **RNA-seq and network analysis:** move from expression data through differential expression and enrichment to co-expression modules and Bayesian relationships.
-- **Microbiome interpretation and reporting:** turn composition, diversity, pathogen, and resistance signals into structured summaries.
-- **Clinical and multi-omics workflows:** develop analysis and reporting approaches across WGS/WES, family screening, oncology, methylation, and related research.
+| Focus | What I work on |
+| --- | --- |
+| **Genomic interpretation** | Variant relevance, inheritance-aware evidence, phenotype matching, and clinical review |
+| **Transcriptomics & networks** | RNA-seq differential expression, enrichment, co-expression modules, and Bayesian relationships |
+| **Microbiome & AMR** | Composition, diversity, pathogen and resistance signals, and structured reporting |
+| **Cancer & epigenomics** | Somatic variant evidence, pharmacogenomics, trial matching, and methylation |
+| **Clinical & multi-omics** | Research and analysis approaches across WGS/WES, family screening, and related studies |
+
+Some project work is in private repositories; this overview describes the research without exposing private code, repository links, or study data.
 
 ## Background
 
-I hold an **MSc in Bioinformatics from Chandigarh University**. For my six-month dissertation at **CSIR–IHBT**, I studied gene co-expression and Bayesian network construction in *Arabidopsis thaliana*.
-
-I also work on bioinformatics portals and research products, collaborating with clinicians, researchers, and software teams to make complex analysis useful and reviewable.
+**MSc Bioinformatics · Chandigarh University**  
+Six-month dissertation at **CSIR–IHBT** on gene co-expression and Bayesian network construction in *Arabidopsis thaliana*. I collaborate with clinicians, researchers, and software teams to make complex analysis useful and reviewable.
 
 ---
 
-<p align="center">
-  Interested in thoughtful collaborations across computational biology, clinical genomics, and AI.
-</p>
+<p align="center">Interested in thoughtful collaborations across computational biology, clinical genomics, and AI.</p>
