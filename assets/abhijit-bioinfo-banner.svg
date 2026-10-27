@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Abhijit Swain — Bioinformatics and Clinical Genomics</title>
+  <desc id="desc">A dark terminal-inspired banner with a blinking cursor and an animated DNA helix.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#08111f"/><stop offset="1" stop-color="#10233a"/>
+    </linearGradient>
+    <linearGradient id="strandA" x1="0" x2="1">
+      <stop stop-color="#42e8c3"/><stop offset="1" stop-color="#57a6ff"/>
+    </linearGradient>
+    <linearGradient id="strandB" x1="0" x2="1">
+      <stop stop-color="#b784ff"/><stop offset="1" stop-color="#ff7fa8"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#8bb5d0" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1000" height="260" rx="24" fill="url(#background)"/>
+  <rect width="1000" height="260" rx="24" fill="url(#grid)"/>
+  <circle cx="828" cy="126" r="125" fill="#1c5270" opacity=".15"/>
+  <circle cx="944" cy="38" r="78" fill="#6d48a5" opacity=".1"/>
+
+  <g font-family="SFMono-Regular,Consolas,monospace">
+    <text x="58" y="65" fill="#51e3be" font-size="15">$ whoami</text>
+    <text x="58" y="124" fill="#f3f7fb" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="700">Abhijit Swain</text>
+    <text x="60" y="157" fill="#a8c4d8" font-size="15">Senior Bioinformatician <tspan fill="#5b7890">|</tspan> Clinical Genomics</text>
+    <text x="58" y="204" fill="#51e3be" font-size="14">&gt; turning genomic data into clinical insight</text>
+    <rect x="438" y="191" width="9" height="17" rx="2" fill="#51e3be">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M666 49 C721 49 721 211 776 211 S831 49 886 49 S941 211 986 211" stroke="url(#strandA)" stroke-width="4"/>
+    <path d="M666 211 C721 211 721 49 776 49 S831 211 886 211 S941 49 986 49" stroke="url(#strandB)" stroke-width="4"/>
+    <g stroke="#d5e7f4" stroke-width="2" opacity=".45">
+      <path d="M680 58 L680 202"/><path d="M711 75 L711 185"/><path d="M742 125 L742 135"/>
+      <path d="M776 211 L776 49"/><path d="M811 135 L811 125"/><path d="M851 185 L851 75"/>
+      <path d="M886 211 L886 49"/><path d="M921 185 L921 75"/><path d="M956 135 L956 125"/>
+    </g>
+    <path d="M666 49 C721 49 721 211 776 211 S831 49 886 49 S941 211 986 211" stroke="#d5fff5" stroke-width="2" stroke-dasharray="2 20" opacity=".6">
+      <animate attributeName="stroke-dashoffset" from="0" to="-44" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g filter="url(#softGlow)">
+    <circle r="5" fill="#50edc5"><animateMotion dur="5s" repeatCount="indefinite" path="M666 49 C721 49 721 211 776 211 S831 49 886 49 S941 211 986 211"/></circle>
+    <circle r="5" fill="#d19bff"><animateMotion dur="5s" repeatCount="indefinite" path="M666 211 C721 211 721 49 776 49 S831 211 886 211 S941 49 986 49"/></circle>
+  </g>
+</svg>
