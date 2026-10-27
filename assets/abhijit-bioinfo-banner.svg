@@ -1,59 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
-  <title id="title">Abhijit Swain — algorithms, omics and AI</title>
-  <desc id="desc">A custom terminal-inspired banner with a blinking prompt and animated signals moving through a computational network graph.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Abhijit Swain — bioinformatics research and AI</title>
+  <desc id="desc">A coder seen from behind at a workstation. The monitor shows an AI bioinformatics research interface, while animated signals move through its analysis graph. The coder's face is not visible.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#090d18"/><stop offset="1" stop-color="#141d35"/>
+      <stop stop-color="#080d18"/><stop offset="1" stop-color="#17243a"/>
     </linearGradient>
-    <linearGradient id="signal" x1="0" x2="1">
-      <stop stop-color="#58f0c4"/><stop offset="1" stop-color="#74a8ff"/>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0d1e2c"/><stop offset="1" stop-color="#101a30"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1">
+      <stop stop-color="#48e7ba"/><stop offset="1" stop-color="#72a9ff"/>
     </linearGradient>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#93a9cc" stroke-opacity=".07"/>
+      <path d="M24 0H0V24" fill="none" stroke="#91a8c9" stroke-opacity=".055"/>
     </pattern>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect width="1000" height="280" rx="22" fill="url(#bg)"/>
-  <rect width="1000" height="280" rx="22" fill="url(#grid)"/>
-  <rect x="34" y="32" width="932" height="216" rx="16" fill="#0b1322" fill-opacity=".62" stroke="#7890b3" stroke-opacity=".18"/>
-  <path d="M35 72H965" stroke="#7890b3" stroke-opacity=".18"/>
-  <circle cx="58" cy="52" r="5" fill="#ff6b75"/><circle cx="77" cy="52" r="5" fill="#ffc857"/><circle cx="96" cy="52" r="5" fill="#56e39f"/>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <rect x="26" y="26" width="1148" height="308" rx="18" fill="#0b1220" fill-opacity=".72" stroke="#8294b2" stroke-opacity=".18"/>
 
+  <!-- Profile identity and research areas -->
   <g font-family="SFMono-Regular,Consolas,monospace">
-    <text x="125" y="57" fill="#7185a5" font-size="12">abhijit / research-console</text>
-    <text x="66" y="112" fill="#58f0c4" font-size="15">$ whoami</text>
-    <text x="66" y="158" fill="#f4f6ff" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="700">Abhijit Swain</text>
-    <text x="68" y="190" fill="#c0cbe0" font-size="15">BIOINFORMATICS <tspan fill="#58f0c4">×</tspan> ALGORITHMS <tspan fill="#58f0c4">×</tspan> AI</text>
-    <text x="66" y="224" fill="#8093b3" font-size="13">&gt; find patterns. build methods. make evidence useful.</text>
-    <rect x="491" y="212" width="8" height="15" rx="1" fill="#58f0c4">
-      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
+    <text x="58" y="77" fill="#57e4bd" font-size="14">$ profile --focus bioinformatics / algorithms / AI</text>
+    <text x="56" y="131" fill="#f4f6fb" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="700">Abhijit Swain</text>
+    <text x="58" y="162" fill="#b6c5da" font-size="14">BIOINFORMATICS RESEARCH  <tspan fill="#57e4bd">×</tspan>  ALGORITHM DESIGN  <tspan fill="#57e4bd">×</tspan>  AI</text>
+    <text x="58" y="190" fill="#8295b1" font-size="13">Model biology. Surface evidence. Build useful insight.</text>
+  </g>
+  <g font-family="SFMono-Regular,Consolas,monospace" font-size="12">
+    <g><rect x="56" y="216" width="112" height="30" rx="8" fill="#102a34" stroke="#3cba9a" stroke-opacity=".5"/><text x="70" y="236" fill="#8bf0d0">WGS / WES</text></g>
+    <g><rect x="178" y="216" width="104" height="30" rx="8" fill="#152238" stroke="#6c8dca" stroke-opacity=".55"/><text x="194" y="236" fill="#b9ceff">RNA-seq</text></g>
+    <g><rect x="292" y="216" width="142" height="30" rx="8" fill="#211c35" stroke="#a180d8" stroke-opacity=".6"/><text x="306" y="236" fill="#d4baff">Microbiome</text></g>
+    <g><rect x="56" y="255" width="72" height="30" rx="8" fill="#211c35" stroke="#a180d8" stroke-opacity=".6"/><text x="76" y="275" fill="#d4baff">AMR</text></g>
+    <g><rect x="138" y="255" width="126" height="30" rx="8" fill="#102a34" stroke="#3cba9a" stroke-opacity=".5"/><text x="151" y="275" fill="#8bf0d0">Methylation</text></g>
+    <g><rect x="274" y="255" width="160" height="30" rx="8" fill="#152238" stroke="#6c8dca" stroke-opacity=".55"/><text x="287" y="275" fill="#b9ceff">Bayesian networks</text></g>
   </g>
 
-  <g fill="none" stroke-linecap="round">
-    <path d="M645 124L710 93L770 123L830 82L900 112" stroke="#6380a9" stroke-opacity=".7" stroke-width="2"/>
-    <path d="M645 124L700 178L770 123L825 184L900 112" stroke="#6380a9" stroke-opacity=".7" stroke-width="2"/>
-    <path d="M710 93L700 178M710 93L825 184M830 82L825 184M770 123L900 196" stroke="#6380a9" stroke-opacity=".45" stroke-width="2"/>
-    <path d="M645 124L710 93L770 123L830 82L900 112" stroke="url(#signal)" stroke-width="2" stroke-dasharray="2 12" opacity=".95">
-      <animate attributeName="stroke-dashoffset" from="0" to="-42" dur="2.2s" repeatCount="indefinite"/>
-    </path>
-    <path d="M645 124L700 178L770 123L825 184L900 112" stroke="#c08bff" stroke-width="2" stroke-dasharray="2 14" opacity=".8">
-      <animate attributeName="stroke-dashoffset" from="0" to="42" dur="2.8s" repeatCount="indefinite"/>
-    </path>
-  </g>
+  <!-- Monitor with a bioinformatics and AI research workspace -->
+  <rect x="663" y="48" width="463" height="218" rx="13" fill="#202b3b" stroke="#8091aa" stroke-opacity=".55" stroke-width="2"/>
+  <rect x="676" y="61" width="437" height="192" rx="7" fill="url(#screen)"/>
+  <path d="M676 91H1113" stroke="#8191aa" stroke-opacity=".23"/>
+  <circle cx="691" cy="76" r="4" fill="#f36c78"/><circle cx="706" cy="76" r="4" fill="#f4c15d"/><circle cx="721" cy="76" r="4" fill="#57dfa6"/>
+  <text x="739" y="80" fill="#b5c5dc" font-family="SFMono-Regular,Consolas,monospace" font-size="12">BIOINFORMATICS AI / RESEARCH CONSOLE</text>
 
+  <text x="694" y="111" fill="#59e4bd" font-family="SFMono-Regular,Consolas,monospace" font-size="10">EVIDENCE × EXPRESSION</text>
+  <!-- compact expression plot -->
+  <path d="M697 187H817M697 125V187" fill="none" stroke="#65758e" stroke-opacity=".5"/>
+  <path d="M700 174L717 166L734 172L751 143L768 151L785 128L802 137L816 119" fill="none" stroke="#60d9bd" stroke-width="2"/>
+  <path d="M700 174L717 166L734 172L751 143L768 151L785 128L802 137L816 119" fill="none" stroke="#d5fff1" stroke-width="2" stroke-dasharray="2 14" opacity=".8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-32" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#7ae8ce">
+    <circle cx="717" cy="166" r="2.5"/><circle cx="751" cy="143" r="2.5"/><circle cx="785" cy="128" r="2.5"/><circle cx="816" cy="119" r="2.5"/>
+  </g>
+  <text x="700" y="202" fill="#7185a1" font-family="SFMono-Regular,Consolas,monospace" font-size="9">signal / cohort pattern</text>
+
+  <!-- Evidence network with animated signal paths -->
+  <text x="850" y="111" fill="#bea1ff" font-family="SFMono-Regular,Consolas,monospace" font-size="10">AI-ASSISTED EVIDENCE</text>
+  <g fill="none" stroke="#667895" stroke-opacity=".7" stroke-width="1.5">
+    <path d="M856 151L900 132L944 154L991 128L1045 150"/>
+    <path d="M856 151L900 183L944 154L990 187L1045 150"/>
+    <path d="M900 132L900 183M991 128L990 187M944 154L1064 199"/>
+  </g>
+  <path d="M856 151L900 132L944 154L991 128L1045 150" fill="none" stroke="url(#cyan)" stroke-width="2" stroke-dasharray="2 11">
+    <animate attributeName="stroke-dashoffset" from="0" to="-39" dur="2.2s" repeatCount="indefinite"/>
+  </path>
   <g>
-    <circle cx="645" cy="124" r="8" fill="#58f0c4"/><circle cx="710" cy="93" r="6" fill="#74a8ff"/>
-    <circle cx="700" cy="178" r="6" fill="#c08bff"/><circle cx="770" cy="123" r="9" fill="#f0f4ff"/>
-    <circle cx="830" cy="82" r="6" fill="#58f0c4"/><circle cx="825" cy="184" r="6" fill="#74a8ff"/>
-    <circle cx="900" cy="112" r="8" fill="#c08bff"/><circle cx="900" cy="196" r="5" fill="#58f0c4"/>
+    <circle cx="856" cy="151" r="5" fill="#57e4bd"/><circle cx="900" cy="132" r="4" fill="#72a9ff"/>
+    <circle cx="900" cy="183" r="4" fill="#a882ef"/><circle cx="944" cy="154" r="6" fill="#f4f6fb"/>
+    <circle cx="991" cy="128" r="4" fill="#57e4bd"/><circle cx="990" cy="187" r="4" fill="#72a9ff"/>
+    <circle cx="1045" cy="150" r="5" fill="#a882ef"/><circle cx="1064" cy="199" r="4" fill="#57e4bd"/>
   </g>
-  <g filter="url(#glow)">
-    <circle r="4" fill="#a8ffe7"><animateMotion dur="3.2s" repeatCount="indefinite" path="M645 124L710 93L770 123L830 82L900 112"/></circle>
-    <circle r="4" fill="#dfc2ff"><animateMotion dur="3.8s" repeatCount="indefinite" path="M645 124L700 178L770 123L825 184L900 112"/></circle>
+  <circle r="3.5" fill="#d8fff4" filter="url(#glow)">
+    <animateMotion dur="3.2s" repeatCount="indefinite" path="M856 151L900 132L944 154L991 128L1045 150"/>
+  </circle>
+  <rect x="849" y="215" width="112" height="21" rx="6" fill="#12362f"/>
+  <text x="859" y="229" fill="#7be7c7" font-family="SFMono-Regular,Consolas,monospace" font-size="9">AI / PHENOTYPE</text>
+  <rect x="969" y="215" width="126" height="21" rx="6" fill="#1d2440"/>
+  <text x="979" y="229" fill="#bacaff" font-family="SFMono-Regular,Consolas,monospace" font-size="9">EXPLAINABLE SCORE</text>
+
+  <!-- Stand and desk -->
+  <path d="M866 266L866 281H923L923 266" fill="#263349" stroke="#64758e" stroke-opacity=".7"/>
+  <path d="M843 282H946L959 291H830Z" fill="#34445b"/>
+  <rect x="537" y="293" width="610" height="14" rx="5" fill="#334258"/>
+  <path d="M575 307V329M1111 307V329" stroke="#29374c" stroke-width="8"/>
+  <path d="M768 293L778 279L837 279L850 293Z" fill="#1e293b" stroke="#65758e" stroke-opacity=".65"/>
+  <g stroke="#91a3bb" stroke-opacity=".65" stroke-width="1">
+    <path d="M781 284H832M778 288H836"/>
   </g>
+
+  <!-- Chair and coder, shown only from behind -->
+  <path d="M589 191Q589 174 607 174H652Q670 174 670 192V270H589Z" fill="#202d42" stroke="#435570" stroke-width="2"/>
+  <path d="M610 271V304M651 271V304M588 304H671" fill="none" stroke="#34445b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M633 231H681V244H633Z" fill="#27374f"/>
+  <path d="M615 299H681" stroke="#455873" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Back of head only: no eyes, nose, mouth, or facial profile -->
+  <path d="M659 143C654 114 671 94 700 94C730 94 747 115 741 145C738 164 722 178 700 178C679 178 663 163 659 143Z" fill="#293348" stroke="#52627a" stroke-width="2"/>
+  <path d="M660 136C655 106 676 91 701 91C725 91 743 107 742 133C733 126 726 119 723 109C710 122 688 129 660 136Z" fill="#171e2d"/>
+  <path d="M690 174V188H710V174" fill="#293348"/>
+  <!-- shirt, shoulders and arms reaching toward the keyboard -->
+  <path d="M646 199C654 183 672 176 700 176C730 176 750 184 759 201L779 264H626Z" fill="#273c58" stroke="#526984" stroke-width="2"/>
+  <path d="M649 204C666 213 681 217 701 217C723 217 739 212 755 202" fill="none" stroke="#4c6685" stroke-width="2" opacity=".75"/>
+  <path d="M751 207C778 215 795 232 817 263" fill="none" stroke="#273c58" stroke-width="18" stroke-linecap="round"/>
+  <path d="M751 207C778 215 795 232 817 263" fill="none" stroke="#506887" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+  <path d="M808 261Q818 255 828 261L833 270H809Z" fill="#d39c78"/>
 </svg>
