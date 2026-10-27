@@ -1,53 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
-  <title id="title">Abhijit Swain — Bioinformatics and Clinical Genomics</title>
-  <desc id="desc">A dark terminal-inspired banner with a blinking cursor and an animated DNA helix.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">Abhijit Swain — algorithms, omics and AI</title>
+  <desc id="desc">A custom terminal-inspired banner with a blinking prompt and animated signals moving through a computational network graph.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#08111f"/><stop offset="1" stop-color="#10233a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#090d18"/><stop offset="1" stop-color="#141d35"/>
     </linearGradient>
-    <linearGradient id="strandA" x1="0" x2="1">
-      <stop stop-color="#42e8c3"/><stop offset="1" stop-color="#57a6ff"/>
+    <linearGradient id="signal" x1="0" x2="1">
+      <stop stop-color="#58f0c4"/><stop offset="1" stop-color="#74a8ff"/>
     </linearGradient>
-    <linearGradient id="strandB" x1="0" x2="1">
-      <stop stop-color="#b784ff"/><stop offset="1" stop-color="#ff7fa8"/>
-    </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#8bb5d0" stroke-opacity=".07"/>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#93a9cc" stroke-opacity=".07"/>
     </pattern>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="1000" height="260" rx="24" fill="url(#background)"/>
-  <rect width="1000" height="260" rx="24" fill="url(#grid)"/>
-  <circle cx="828" cy="126" r="125" fill="#1c5270" opacity=".15"/>
-  <circle cx="944" cy="38" r="78" fill="#6d48a5" opacity=".1"/>
+
+  <rect width="1000" height="280" rx="22" fill="url(#bg)"/>
+  <rect width="1000" height="280" rx="22" fill="url(#grid)"/>
+  <rect x="34" y="32" width="932" height="216" rx="16" fill="#0b1322" fill-opacity=".62" stroke="#7890b3" stroke-opacity=".18"/>
+  <path d="M35 72H965" stroke="#7890b3" stroke-opacity=".18"/>
+  <circle cx="58" cy="52" r="5" fill="#ff6b75"/><circle cx="77" cy="52" r="5" fill="#ffc857"/><circle cx="96" cy="52" r="5" fill="#56e39f"/>
 
   <g font-family="SFMono-Regular,Consolas,monospace">
-    <text x="58" y="65" fill="#51e3be" font-size="15">$ whoami</text>
-    <text x="58" y="124" fill="#f3f7fb" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="700">Abhijit Swain</text>
-    <text x="60" y="157" fill="#a8c4d8" font-size="15">Senior Bioinformatician <tspan fill="#5b7890">|</tspan> Clinical Genomics</text>
-    <text x="58" y="204" fill="#51e3be" font-size="14">&gt; turning genomic data into clinical insight</text>
-    <rect x="438" y="191" width="9" height="17" rx="2" fill="#51e3be">
+    <text x="125" y="57" fill="#7185a5" font-size="12">abhijit / research-console</text>
+    <text x="66" y="112" fill="#58f0c4" font-size="15">$ whoami</text>
+    <text x="66" y="158" fill="#f4f6ff" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="700">Abhijit Swain</text>
+    <text x="68" y="190" fill="#c0cbe0" font-size="15">BIOINFORMATICS <tspan fill="#58f0c4">×</tspan> ALGORITHMS <tspan fill="#58f0c4">×</tspan> AI</text>
+    <text x="66" y="224" fill="#8093b3" font-size="13">&gt; find patterns. build methods. make evidence useful.</text>
+    <rect x="491" y="212" width="8" height="15" rx="1" fill="#58f0c4">
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
 
   <g fill="none" stroke-linecap="round">
-    <path d="M666 49 C721 49 721 211 776 211 S831 49 886 49 S941 211 986 211" stroke="url(#strandA)" stroke-width="4"/>
-    <path d="M666 211 C721 211 721 49 776 49 S831 211 886 211 S941 49 986 49" stroke="url(#strandB)" stroke-width="4"/>
-    <g stroke="#d5e7f4" stroke-width="2" opacity=".45">
-      <path d="M680 58 L680 202"/><path d="M711 75 L711 185"/><path d="M742 125 L742 135"/>
-      <path d="M776 211 L776 49"/><path d="M811 135 L811 125"/><path d="M851 185 L851 75"/>
-      <path d="M886 211 L886 49"/><path d="M921 185 L921 75"/><path d="M956 135 L956 125"/>
-    </g>
-    <path d="M666 49 C721 49 721 211 776 211 S831 49 886 49 S941 211 986 211" stroke="#d5fff5" stroke-width="2" stroke-dasharray="2 20" opacity=".6">
-      <animate attributeName="stroke-dashoffset" from="0" to="-44" dur="2.5s" repeatCount="indefinite"/>
+    <path d="M645 124L710 93L770 123L830 82L900 112" stroke="#6380a9" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M645 124L700 178L770 123L825 184L900 112" stroke="#6380a9" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M710 93L700 178M710 93L825 184M830 82L825 184M770 123L900 196" stroke="#6380a9" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M645 124L710 93L770 123L830 82L900 112" stroke="url(#signal)" stroke-width="2" stroke-dasharray="2 12" opacity=".95">
+      <animate attributeName="stroke-dashoffset" from="0" to="-42" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M645 124L700 178L770 123L825 184L900 112" stroke="#c08bff" stroke-width="2" stroke-dasharray="2 14" opacity=".8">
+      <animate attributeName="stroke-dashoffset" from="0" to="42" dur="2.8s" repeatCount="indefinite"/>
     </path>
   </g>
-  <g filter="url(#softGlow)">
-    <circle r="5" fill="#50edc5"><animateMotion dur="5s" repeatCount="indefinite" path="M666 49 C721 49 721 211 776 211 S831 49 886 49 S941 211 986 211"/></circle>
-    <circle r="5" fill="#d19bff"><animateMotion dur="5s" repeatCount="indefinite" path="M666 211 C721 211 721 49 776 49 S831 211 886 211 S941 49 986 49"/></circle>
+
+  <g>
+    <circle cx="645" cy="124" r="8" fill="#58f0c4"/><circle cx="710" cy="93" r="6" fill="#74a8ff"/>
+    <circle cx="700" cy="178" r="6" fill="#c08bff"/><circle cx="770" cy="123" r="9" fill="#f0f4ff"/>
+    <circle cx="830" cy="82" r="6" fill="#58f0c4"/><circle cx="825" cy="184" r="6" fill="#74a8ff"/>
+    <circle cx="900" cy="112" r="8" fill="#c08bff"/><circle cx="900" cy="196" r="5" fill="#58f0c4"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle r="4" fill="#a8ffe7"><animateMotion dur="3.2s" repeatCount="indefinite" path="M645 124L710 93L770 123L830 82L900 112"/></circle>
+    <circle r="4" fill="#dfc2ff"><animateMotion dur="3.8s" repeatCount="indefinite" path="M645 124L700 178L770 123L825 184L900 112"/></circle>
   </g>
 </svg>
