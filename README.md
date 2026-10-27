@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>Bioinformatics research · Algorithm development · AI for genomics</strong><br/>
-  <a href="https://abhijitswain.linklee.in/">Portfolio</a> ·
+  <a href="https://abhijitswain09.github.io/Portfolio/">Portfolio</a> ·
   <a href="https://linkedin.com/in/abhijit-swain">LinkedIn</a> ·
   <a href="mailto:abhijitswain148@gmail.com">Email</a>
 </p>
