@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/abhijit-bioinfo-banner.svg" alt="Animated computational graph for Abhijit Swain" width="100%" />
+  <img src="assets/abhijit-bioinfo-banner.svg" alt="Abhijit Swain coding at a bioinformatics AI workstation, shown from behind" width="100%" />
 </p>
 
 <p align="center">
